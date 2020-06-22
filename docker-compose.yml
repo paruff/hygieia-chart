@@ -16,7 +16,7 @@ services:
       - db
 
   api:
-    image: hygieia-api
+    image: paruff/hygieia-api
     depends_on:
       - db
     ports:
